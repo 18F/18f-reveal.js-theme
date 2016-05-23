@@ -48,6 +48,19 @@ section.has-light-background {
 	}
 }
 
+.reveal .logo {
+  position: fixed;
+  z-index: 30;
+  left: 10px;
+  top: 10px;
+  -webkit-user-select: none;
+
+  svg.logo-18f {
+    width: 75px;
+    height: 75px;
+  }
+}
+
 svg.logo-18f {
   fill: $mainColor;
 }

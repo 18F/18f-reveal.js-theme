@@ -61,8 +61,17 @@ section.has-light-background {
   }
 }
 
+.reveal.has-light-background {
+  svg.logo-18f {
+    fill: $darkColor;
+  }
+}
+
 svg.logo-18f {
   fill: $mainColor;
+  -webkit-transition: fill .15s ease;
+     -moz-transition: fill .15s ease;
+          transition: fill .15s ease;
 }
 
 // Theme template ------------------------------

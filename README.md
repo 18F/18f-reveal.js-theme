@@ -4,6 +4,18 @@ Like the 18F brand's [visual style guide][], it is designed with
 accessibility in mind; all color combinations conform with the standards of
 Section 508 of the Rehabilitation Act.
 
+### Getting started
+
+To develop, just run:
+
+```
+npm install
+npm start
+```
+
+This should open your browser and point it at a development server. If
+it doesn't, visit http://localhost:8000.
+
 ### Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated
